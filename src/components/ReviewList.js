@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { MovieContext } from '../contexts/MovieContext';
-// import MovieCard from './MovieCard'
+import MovieCard from './MovieCard'
 
 function ReviewList(){
 
@@ -11,7 +11,7 @@ function ReviewList(){
             <h2>Reviews</h2>
 
             {moviereviews.map((movie, i) => (
-                <p>A movie</p>
+                <MovieCard  key={movie} movie={movie}/>
             ))}
             {/* <h2>Reviews</h2>
             {moviereviews.map((movie, i) => (

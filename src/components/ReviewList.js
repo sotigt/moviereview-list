@@ -8,6 +8,7 @@ function ReviewList(){
 
     return(
         <div className="moviewrapper">
+            <h2>Reviews</h2>
             {/* <h2>Reviews</h2>
             {moviereviews.map((movie, i) => (
                 <MovieCard key={i} movie={movie}/>
